@@ -57,18 +57,18 @@ export class AppComponent implements OnInit {
     
 
     this.cols = [
-      { field: "vin", header: "Vin", width: "20%" },
+      { field: "vin", header: "Vin", width: "10%" },
       { field: "year", header: "Year" },
-      { field: "brand", header: "Brand", width: "33%" },
+      { field: "brand", header: "Brand", width: "10%" },
       { field: "color", header: "Color" },
-      { field: "vin", header: "Vin", width: "20%" },
-      { field: "year", header: "Year" },
-      { field: "brand", header: "Brand", width: "33%" },
-      { field: "color", header: "Color" },
-      { field: "vin", header: "Vin", width: "20%" },
-      { field: "year", header: "Year" },
-      { field: "brand", header: "Brand", width: "33%" },
-      { field: "color", header: "Color" },
+      { field: "vin1", header: "Vin1", width: "10%" },
+      { field: "year1", header: "Year1" },
+      { field: "brand1", header: "Brand1", width: "10%" },
+      { field: "color1", header: "Color1" },
+      { field: "vin2", header: "Vin2", width: "10%" },
+      { field: "year2", header: "Year2" },
+      { field: "brand2", header: "Brand2", width: "10%" },
+      { field: "color2", header: "Color2" },
     ];
 
     this.loading = true;

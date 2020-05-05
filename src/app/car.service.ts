@@ -36,7 +36,19 @@ export class CarService {
         vin: i +"_vin",
         brand: "Brand",
         year: i,
-        color: "Yellow"
+        color: "Yellow",
+        vin1: i +"_vin",
+        brand1: "Brand",
+        year1: i,
+        color1: "Yellow",
+        vin2: i +"_vin",
+        brand2: "Brand",
+        year2: i,
+        color2: "Yellow",
+        vin3: i +"_vin",
+        brand3: "Brand",
+        year3: i,
+        color3: "Yellow"
       });
     }
     return data;
