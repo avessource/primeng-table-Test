@@ -27,12 +27,12 @@
     </ng-template>
     <ng-template pTemplate="body" let-rowData let-columns="columns" let-index="rowIndex"  let-expanded="expanded">
         <tr [pReorderableRow]="index" [pSelectableRow]="rowData">
-          <td >
+          <td  style="width:3em" >
             <a href="#" [pRowToggler]="rowData" *ngIf="rowData.year % 2">
               <i [ngClass]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></i>
             </a>
           </td>
-          <td>
+          <td  style="width:2.5em">
             <i class="fa fa-bars" pReorderableRowHandle></i>
           </td>
           <td>{{rowData.vin}}</td>
