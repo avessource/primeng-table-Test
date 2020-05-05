@@ -52,7 +52,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     //datasource imitation
-    this.datasource = this.carService.getCarsLarge(100000);
+    this.datasource = this.carService.getCarsLarge(150000);
     this.totalRecords = this.datasource.length;
     
 
@@ -60,7 +60,15 @@ export class AppComponent implements OnInit {
       { field: "vin", header: "Vin", width: "20%" },
       { field: "year", header: "Year" },
       { field: "brand", header: "Brand", width: "33%" },
-      { field: "color", header: "Color" }
+      { field: "color", header: "Color" },
+      { field: "vin", header: "Vin", width: "20%" },
+      { field: "year", header: "Year" },
+      { field: "brand", header: "Brand", width: "33%" },
+      { field: "color", header: "Color" },
+      { field: "vin", header: "Vin", width: "20%" },
+      { field: "year", header: "Year" },
+      { field: "brand", header: "Brand", width: "33%" },
+      { field: "color", header: "Color" },
     ];
 
     this.loading = true;

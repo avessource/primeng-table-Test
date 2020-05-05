@@ -33,7 +33,7 @@ export class CarService {
     let data = [];
     for (let i = 0; i < count; i++) {
       data.push({
-        vin: i +"vin",
+        vin: i +"_vin",
         brand: "Brand",
         year: i,
         color: "Yellow"
